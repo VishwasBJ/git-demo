@@ -1,7 +1,6 @@
-<<<<<<< HEAD
+
 hi from me
 roar
-=======
+
 meow meow
 hello hello
->>>>>>> meow lol
