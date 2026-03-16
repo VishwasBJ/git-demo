@@ -1,0 +1,90 @@
+DEVOPS LAB – POSSIBLE COMMANDS CHEAT SHEET
+
+GIT CONFIGURATION
+
+git config –global user.name “YourName” git config –global user.email
+“your_email@example.com” git config –list
+
+REPOSITORY INITIALIZATION
+
+git init git status git log
+
+ADDING FILES
+
+git add . git add filename
+
+COMMIT OPERATIONS
+
+git commit -m “Initial commit” git commit -m “Updated code” git commit
+–amend
+
+REMOTE REPOSITORY CONNECTION
+
+git remote add origin https://github.com/username/repository.git git
+remote -v git remote remove origin git remote set-url origin
+https://github.com/username/repository.git
+
+PUSH OPERATIONS
+
+git push origin main git push -u origin main git push origin feature1
+git push –force origin main
+
+CLONING REPOSITORY
+
+git clone https://github.com/username/repository.git
+
+BRANCH OPERATIONS
+
+git branch git branch feature1 git checkout feature1 git checkout main
+git checkout -b newbranch git branch -d feature1
+
+MERGE OPERATIONS
+
+git merge feature1
+
+DIFFERENCE BETWEEN BRANCHES
+
+git diff main feature1
+
+RESET OPERATIONS
+
+git reset –soft HEAD~1 git reset –hard HEAD~1
+
+REVERT COMMIT
+
+git revert HEAD
+
+FILE RESTORE
+
+git checkout – filename
+
+PULL OPERATIONS
+
+git pull origin main
+
+JENKINS RELATED COMMANDS
+
+java -jar jenkins.war
+
+Access Jenkins: http://localhost:8080
+
+NGROK COMMAND (Webhook setup)
+
+ngrok http 8080
+
+JAVA BUILD COMMANDS (Jenkins build step)
+
+javac Hello.java java Hello
+
+PYTHON BUILD COMMANDS (Jenkins build step)
+
+python app.py python3 app.py
+
+DOCKER COMMANDS (Basic)
+
+docker –version docker build -t myapp . docker images docker run myapp
+
+COMMON GIT WORKFLOW SUMMARY
+
+git init git add . git commit -m “message” git remote add origin git
+push -u origin main
